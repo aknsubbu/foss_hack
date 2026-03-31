@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/anandkumarns/Downloads/**)",
+      "Bash(python3 -c \":*)",
+      "Bash(find /Volumes/DevDrive/foss_hack/src /Volumes/DevDrive/foss_hack/scripts /Volumes/DevDrive/foss_hack/*.json /Volumes/DevDrive/foss_hack/*.yml /Volumes/DevDrive/foss_hack/*.md)",
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(''''\\\\n''''.join\\(d[''''dependencies''''].keys\\(\\)\\)\\)\")",
+      "Bash(python3 -c \"import markdown; print\\(''markdown ok''\\)\")",
+      "Bash(python3 -c \"import weasyprint; print\\(''weasyprint ok''\\)\")"
+    ]
+  }
+}
